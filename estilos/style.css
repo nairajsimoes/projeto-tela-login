@@ -76,7 +76,7 @@ div.campo > input {
     border-radius: 5px;
     border: 0px;
     background-color: #fddbe4;
-    transform: translateY(-10px);
+    transform: translateY(-10.5px);
 }
 
 div.campo {
