@@ -1,12 +1,22 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* TABLET */
     body {
         background-image: linear-gradient(to bottom, #D36777, #496D2D);
     }
 
+    h1 {
+        margin-top: 10px;
+    }
+
+    p {
+        padding: 10px;
+    }
+
     section#login {
         width: 80vw;
+        height: 65vh;
     }
 
     section#login > div#imagem {
@@ -22,12 +32,14 @@
 }
 
 @media screen and (min-width: 992px) {
+    /* TELAS GRANDES */
     body {
        background-image: linear-gradient(to bottom, #D36777, #496D2D);
     }
 
     section#login {
         width: 950px;
+        height: 60vh;
     }
 
     section#login > div#imagem {
